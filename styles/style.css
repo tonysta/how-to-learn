@@ -1,5 +1,5 @@
-.content {
-  border: 1px solid red;
+* {
+  /* border: 1px solid red; */
 }
 
 .page {
@@ -81,6 +81,40 @@
   margin: 100px auto;
   width: 80%;
   min-width: 784px;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  margin: 0;
+}
+
+.two-columns__main-text {
+  flex-direction: column;
+  width: 80%;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 30px 0;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.two-columns__paragraph:first-child {
+  margin-top: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
