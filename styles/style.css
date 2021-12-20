@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .page {
@@ -156,16 +156,15 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 0;
+  margin: 0;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px;
-  margin-top: 0;
+  margin-bottom: 0;
+  margin-top: 20px;
 }
 
 .feynman {
@@ -204,15 +203,42 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-
   text-decoration-line: none;
   color: #2f80ed;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.kaufman {
+  background-color: #1f1f1f;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-title_theme_dark {
+  color: white;
+  margin: 90px auto 0;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  margin: 20px auto 0;
+}
+
+.table_theme_dark {
+  margin: 0 auto 90px;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  margin: 80px 0 0;
+  z-index: 2;
+}
+
+.kaufman__triangle {
+  height: 877px;
+  width: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: 1;
 }
