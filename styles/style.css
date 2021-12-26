@@ -136,6 +136,8 @@
   align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
 }
 
 .table__cell {
