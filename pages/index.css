@@ -57,3 +57,6 @@
 @import url(../blocs/cards/__image/cards__image.css);
 @import url(../blocs/cards/__title/cards__title.css);
 @import url(../blocs/cards/__description/cards__description.css);
+
+@import url(../blocs/video/__frames/video__frames.css);
+@import url(../blocs/video/__frame/video__frame.css);
