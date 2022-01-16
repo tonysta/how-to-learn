@@ -1,7 +1,7 @@
 .video__iframe {
   width: 515px;
   height: 316px;
-  transform: translateY(60px);
+  transform: translateY(50px);
 }
 
 .video__iframe:first-child {
