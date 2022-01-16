@@ -50,3 +50,10 @@
 @import url(../blocs/logo/_place/logo_place_header.css);
 
 @import url(../blocs/rotation/rotation.css);
+
+@import url(../blocs/techniques/techniques.css);
+@import url(../blocs/cards/cards.css);
+@import url(../blocs/cards/__item/cards__item.css);
+@import url(../blocs/cards/__image/cards__image.css);
+@import url(../blocs/cards/__title/cards__title.css);
+@import url(../blocs/cards/__description/cards__description.css);
