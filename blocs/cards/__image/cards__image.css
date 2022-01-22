@@ -7,21 +7,21 @@
 }
 
 .cards > .cards__item:nth-child(1) .cards__image {
-  background-image: url(/images/cards-attention.png);
+  background-image: url(../../../images/cards-attention.png);
 }
 
 .cards > .cards__item:nth-child(2) .cards__image {
-  background-image: url(/images/cards-recall.png);
+  background-image: url(../../../images/cards-recall.png);
 }
 
 .cards > .cards__item:nth-child(3) .cards__image {
-  background-image: url(/images/cards-interliving.png);
+  background-image: url(../../../images/cards-interliving.png);
 }
 
 .cards > .cards__item:nth-child(4) .cards__image {
-  background-image: url(/images/cards-question.png);
+  background-image: url(../../../images/cards-question.png);
 }
 
 .cards > .cards__item:nth-child(5) .cards__image {
-  background-image: url(/images/cards-competence.png);
+  background-image: url(../../../images/cards-competence.png);
 }
